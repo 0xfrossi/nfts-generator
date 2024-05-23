@@ -1,0 +1,22 @@
+{
+    "width_images": 1024,
+    "height_images": 1024,
+    "amount":5555,
+    "collection_name": "field not used, fill this param directly in the 'generate_collection' function",
+    "collection_symbol": "field not used, fill this param directly in the 'generate_collection' function",
+    "collection_description": "field not used, fill this param directly in the 'generate_collection' function",
+    "layers_order": [["background","skin","eyes","mouth","dress","head","gadget"], ["background","skin","dress","mask","head","gadget"]],
+    "weights_schema_in_collection": [0.95,0.05],
+    
+    "weight_traits": {
+            "background":[0.10,0.10,0.10,0.10,0.10,0.10,0.10,0.10,0.10,0.10],
+            "skin":[0.05,0.02,0.02,0.02,0.02,0.1,0.1,0.07,0.07,0.07,0.07,0.07,0.07,0.05 ,0.05 ,0.15],
+            "mask":[0.70,0.30],
+            "eyes": [0.06,0.04,0.15,0.12,0.10,0.05,0.05,0.05,0.03,0.12,0.05,0.13,0.05 ],
+            "mouth":[0.3,0.3,0.2,0.2],
+            "dress":[0.08,0.08,0.08,0.08,0.05,0.04,0.04,0.55],
+            "head":[0.05,0.04,0.05,0.06,0.04,0.04,0.01,0.5,0.05,0.05,0.06,0.05],
+            "wings":[0.20, 0.35,0.25,0.15,0.05]
+        }
+    
+}
